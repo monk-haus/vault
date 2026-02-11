@@ -17,7 +17,7 @@ const lamea = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.thevaulthq.com"),
+  metadataBase: new URL("https://vault-dmo.pages.dev"),
   title: {
     default: "VAULT",
     template: "%s | VAULT",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "VAULT",
     description: "The Premier Operating System for Modern Retail.",
-    url: "https://www.thevaulthq.com",
+    url: "https://vault-dmo.pages.dev",
     siteName: "VAULT",
     images: [
       {
