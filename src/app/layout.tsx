@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     template: "%s | VAULT",
   },
   description: "The Premier Operating System for Modern Retail.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "VAULT",
     description: "The Premier Operating System for Modern Retail.",
