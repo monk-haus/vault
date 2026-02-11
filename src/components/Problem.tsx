@@ -101,7 +101,7 @@ export default function Problem() {
 
                         <div className="mt-12 pt-8 border-t border-black/5 dark:border-white/5">
                             <p className="font-serif italic text-lg text-black dark:text-white leading-snug">
-                                "The Result: Margin leakage and a service standard that fails to match the quality of the inventory."
+                                The Result: Margin leakage and a service standard that fails to match the quality of the inventory.
                             </p>
                         </div>
 

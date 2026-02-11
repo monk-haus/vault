@@ -2,7 +2,6 @@ export default function SocialProof() {
     const partners = [
         "NVIDIA INCEPTION",
         "WGSN",
-        "FEMALE FOUNDER COLLECTIVE",
         "SAVOIR FLAIR"
     ];
 

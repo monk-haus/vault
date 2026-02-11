@@ -17,8 +17,34 @@ const lamea = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "VAULT",
-  description: "The Agentic Operating System for Premium Retail.",
+  metadataBase: new URL("https://www.thevaulthq.com"),
+  title: {
+    default: "VAULT",
+    template: "%s | VAULT",
+  },
+  description: "The Premier Operating System for Modern Retail.",
+  openGraph: {
+    title: "VAULT",
+    description: "The Premier Operating System for Modern Retail.",
+    url: "https://www.thevaulthq.com",
+    siteName: "VAULT",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "VAULT logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VAULT",
+    description: "The Premier Operating System for Modern Retail.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({

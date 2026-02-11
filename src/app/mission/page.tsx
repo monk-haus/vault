@@ -129,7 +129,7 @@ export default function MissionPage() {
                     </span>
 
                     <div className="flex flex-wrap justify-center gap-8 md:gap-12">
-                        {["NVIDIA INCEPTION", "WGSN", "FEMALE FOUNDER COLLECTIVE", "SAVOIR FLAIR"].map((partner, i) => (
+                        {["NVIDIA INCEPTION", "WGSN", "SAVOIR FLAIR"].map((partner, i) => (
                             <span
                                 key={i}
                                 className="font-sans font-bold text-xs md:text-sm tracking-[0.15em] text-zinc-800 dark:text-zinc-200 uppercase"
